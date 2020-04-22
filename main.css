@@ -1,0 +1,31 @@
+* {
+	cursor: url("cursor.svg"), default;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #FF4438;
+  background: none;
+}
+
+::selection {
+  color: #FF4438;
+  background: none;
+}
+
+.uvod {
+	background: url(img/bg_uvod.png) no-repeat bottom center;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.uvod h1 {
+	font-size: 3vw;
+	padding-bottom: 1.5vw;
+	font-weight: bold;
+}
+
+.uvod p {
+	font-size: 2vw;
+}
